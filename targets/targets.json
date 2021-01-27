@@ -2960,7 +2960,7 @@
             "network-default-interface-type": "ETHERNET"
         },
         "supported_form_factors": [
-            "ARDUINO"
+            "ARDUINO_UNO"
         ],
         "detect_code": [
             "0836"
@@ -3053,7 +3053,7 @@
             "MCU_STM32H747xI_CM7"
         ],
         "supported_form_factors": [
-            "ARDUINO",
+            "ARDUINO_UNO",
             "STMOD",
             "PMOD"
         ],
@@ -3110,7 +3110,7 @@
             "QSPIF"
         ],
         "supported_form_factors": [
-            "ARDUINO",
+            "ARDUINO_UNO",
             "STMOD",
             "PMOD"
         ],
@@ -3219,7 +3219,7 @@
             }
         },
         "supported_form_factors": [
-            "ARDUINO"
+            "ARDUINO_UNO"
         ],
         "detect_code": [
             "0860"
