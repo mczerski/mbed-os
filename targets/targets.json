@@ -34,7 +34,7 @@
         ],
         "config": {
             "console-uart": {
-                "help": "Target has UART console on pins USBTX, USBRX. Value is only significant if target has SERIAL device.",
+                "help": "Target has UART console on pins CONSOLE_TX, CONSOLE_RX. Value is only significant if target has SERIAL device.",
                 "value": true
             },
             "console-uart-flow-control": {
@@ -6371,11 +6371,11 @@
                 "value": null
             },
             "usb-uart-tx": {
-                "help": "Configure USBTX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_TX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "usb-uart-rx": {
-                "help": "Configure USBRX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_RX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "stdio-uart": {
@@ -6383,11 +6383,11 @@
                 "value": null
             },
             "stdio-uart-tx": {
-                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to USBTX.",
+                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to CONSOLE_TX.",
                 "value": null
             },
             "stdio-uart-rx": {
-                "help": "Configure STDIO_UART_RX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_RX defaults to USBRX.",
+                "help": "Configure STDIO_UART_RX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_RX defaults to CONSOLE_RX.",
                 "value": null
             },
             "gpio-irq-debounce-enable": {
@@ -6720,11 +6720,11 @@
                 "value": null
             },
             "usb-uart-tx": {
-                "help": "Configure USBTX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_TX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "usb-uart-rx": {
-                "help": "Configure USBRX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_RX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "stdio-uart": {
@@ -6732,11 +6732,11 @@
                 "value": null
             },
             "stdio-uart-tx": {
-                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to USBTX.",
+                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to CONSOLE_TX.",
                 "value": null
             },
             "stdio-uart-rx": {
-                "help": "Configure STDIO_UART_RX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_RX defaults to USBRX.",
+                "help": "Configure STDIO_UART_RX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_RX defaults to CONSOLE_RX.",
                 "value": null
             },
             "gpio-irq-debounce-enable": {
@@ -7643,11 +7643,11 @@
                 "value": null
             },
             "usb-uart-tx": {
-                "help": "Configure USBTX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_TX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "usb-uart-rx": {
-                "help": "Configure USBRX. USB_UART and USBTX/USBRX must be consistent.",
+                "help": "Configure CONSOLE_RX. USB_UART and CONSOLE_TX/CONSOLE_RX must be consistent.",
                 "value": null
             },
             "stdio-uart": {
@@ -7655,7 +7655,7 @@
                 "value": null
             },
             "stdio-uart-tx": {
-                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to USBTX.",
+                "help": "Configure STDIO_UART_TX. STDIO_UART and STDIO_UART_TX/STDIO_UART_RX must be consistent. STDIO_UART_TX defaults to CONSOLE_TX.",
                 "value": null
             },
             "stdio-uart-rx": {
